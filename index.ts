@@ -1,8 +1,8 @@
 import * as _ from 'lodash';
 
-console.log('Hello World!');
+console.log('ts introduction');
 
-async function hello () {
+function hello () {
     return "world"
 }
 
