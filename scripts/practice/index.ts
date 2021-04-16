@@ -3,7 +3,7 @@ import * as _ from 'lodash';
 console.log('ts introduction');
 
 function hello () {
-    return "world"
+  return "world"
 }
 
 // Implicit typing
@@ -28,38 +28,38 @@ console.log(myFont);
 
 // Interface object typing
 interface Person {
-    firstname: string,
-    lastname: string,
-    age: number,
-    admin: boolean,
-    details?: string // Not required 
+  firstname: string,
+  lastname: string,
+  age: number,
+  admin: boolean,
+  details?: string // Not required 
 }
 
 const EmployeeAdmin:Person = {
-    firstname: 'Drew',
-    lastname: 'Carey',
-    age: 37,
-    admin: true,
-    details: 'Nice guy',
+  firstname: 'Drew',
+  lastname: 'Carey',
+  age: 37,
+  admin: true,
+  details: 'Nice guy',
 }
 
 const Employee: Person = {
-    firstname: 'Jerry',
-    lastname: 'Seinfield',
-    age: 50,
-    admin: false,
+  firstname: 'Jerry',
+  lastname: 'Seinfield',
+  age: 50,
+  admin: false,
 }
 
 // Functions
 function pow (x:number, y:number):string {
-    return Math.pow(x, y).toString();
+  return Math.pow(x, y).toString();
 }
 const powValue = pow(2,3);
 console.log({powValue});
 
 // Functions without value returned
 function printer(msg): void {
-    console.log(`Hello! ${msg}`);
+  console.log(`Hello! ${msg}`);
 }
 printer('TypeScript is cool !');
 

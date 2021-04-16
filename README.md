@@ -1,5 +1,7 @@
 # ts-introduction
-Discover TypeScript from Fireship tutorial
+TypeScript practices
+
+Video ref
 https://www.youtube.com/watch?v=ahCwqrYpIuM
 
 
